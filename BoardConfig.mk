@@ -184,7 +184,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 TARGET_PER_MGR_ENABLED := true
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm
