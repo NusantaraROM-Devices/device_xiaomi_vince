@@ -14,3 +14,6 @@ allow init sysfs_leds:lnk_file read;
 
 allow init sysfs:file setattr;
 allow init sysfs_battery_supply:file { setattr };
+
+# DT2W
+allow init sysfs_dt2w:file { rw_file_perms setattr };
