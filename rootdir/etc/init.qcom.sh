@@ -27,7 +27,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-
 #
 # Make modem config folder and copy firmware config to that folder for RIL
 #
@@ -51,3 +50,8 @@ if [ ! -f /vendor/firmware_mnt/verinfo/ver_info.txt -o "$prev_version_info" != "
 fi
 chmod g-w /data/vendor/modem_config
 setprop ro.vendor.ril.mbn_copy_completed 1
+
+    # Yellow LED
+    write /sys/class/leds/led:flash_1/max_brightness 0
+    write /sys/class/leds/led:torch_1/max_brightness 0
+    write /sys/class/leds/torch-light1/max_brightness 0
