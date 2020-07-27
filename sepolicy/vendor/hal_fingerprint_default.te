@@ -1,0 +1,5 @@
+allow hal_fingerprint_default fpc_sysfs:dir { search };
+allow hal_fingerprint_default fpc_sysfs:file { write };
+allow hal_fingerprint_default fpc_sysfs:file { open };
+allow hal_fingerprint_default tee_device:chr_file { ioctl };
+allow hal_fingerprint_default fpc_sysfs:file { read };
