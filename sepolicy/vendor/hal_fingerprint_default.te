@@ -3,3 +3,7 @@ allow hal_fingerprint_default fpc_sysfs:file { write };
 allow hal_fingerprint_default fpc_sysfs:file { open };
 allow hal_fingerprint_default tee_device:chr_file { ioctl };
 allow hal_fingerprint_default fpc_sysfs:file { read };
+allow hal_fingerprint_default property_socket:sock_file { write };
+allow hal_fingerprint_default sysfs_leds:dir { search };
+allow hal_fingerprint_default sysfs_battery_supply:dir { search };
+allow hal_fingerprint_default fpc_sysfs:dir { read };
