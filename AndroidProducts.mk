@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/komodo_vince.mk
+    $(LOCAL_DIR)/nad_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    komodo_vince-user \
-    komodo_vince-userdebug \
-    komodo_vince-eng
+    nad_vince-user \
+    nad_vince-userdebug \
+    nad_vince-eng
