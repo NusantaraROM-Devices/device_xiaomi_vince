@@ -8,7 +8,7 @@
   {
     "remote": "github",
     "repository": "Kry9toN/vendor_xiaomi_vince",
-    "target_path": "vendor/xiaomi/vince",
+    "target_path": "vendor/xiaomi",
     "branch": "ten"
   }
 ]
