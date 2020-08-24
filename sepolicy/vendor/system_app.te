@@ -9,3 +9,6 @@ allow system_app {
 r_dir_file(system_app sysfs_zram)
 
 binder_call(system_app, wificond)
+
+# Battery Health
+r_dir_file(system_app sysfs_battery_supply)
