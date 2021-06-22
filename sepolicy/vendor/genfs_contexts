@@ -27,3 +27,6 @@ genfscon proc /touchpanel                                             u:object_r
 genfscon sysfs /kernel/sound_control/headphone_gain                u:object_r:sysfs_hgain:s0
 genfscon sysfs /kernel/sound_control/mic_gain                      u:object_r:sysfs_mgain:s0
 genfscon sysfs /kernel/sound_control/speaker_gain                  u:object_r:sysfs_sgain:s0
+
+genfscon sysfs /module/battery_saver/parameters/enabled u:object_r:sysfs_battery_saver:s0
+
