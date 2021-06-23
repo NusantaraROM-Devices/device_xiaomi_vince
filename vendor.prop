@@ -180,6 +180,10 @@ persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableSigHandler=1
 persist.vendor.ims.disableQXDMLogs=1
 
+# SOC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8953
+
 # Recovery
 persist.vendor.recovery_update=false
 
