@@ -503,3 +503,7 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libnl
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
