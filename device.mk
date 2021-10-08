@@ -492,5 +492,4 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
-    libnl \
-    libshim_wfdmmsink
+    libnl
