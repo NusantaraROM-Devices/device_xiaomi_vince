@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,13 +12,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_vince.mk \
-    $(LOCAL_DIR)/vince.mk
+# Inherit AOSP product configuration
+$(call inherit-product, device/xiaomi/vince/aosp_vince.mk)
 
-COMMON_LUNCH_CHOICES := \
-    aosp_vince-user \
-    aosp_vince-userdebug \
-    aosp_vince-eng \
-    vince-userdebug
+# Remove AOSP prefix from product name
+PRODUCT_NAME := vince
