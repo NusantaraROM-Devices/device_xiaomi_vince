@@ -84,6 +84,10 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# APEX updates
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.apex.updatable=true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
