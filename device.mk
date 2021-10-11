@@ -19,6 +19,9 @@ $(call inherit-product, vendor/xiaomi/vince/vince-vendor.mk)
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 25
 
+TARGET_BOARD_PLATFORM := msm8953
+TARGET_BOARD_SUFFIX := _64
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
