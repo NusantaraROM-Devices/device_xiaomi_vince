@@ -14,8 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit AOSP product configuration
-$(call inherit-product, device/xiaomi/vince/aosp_vince.mk)
+# Inherit Shapeshift product configuration
+$(call inherit-product, device/xiaomi/vince/ssos_vince.mk)
 
-# Remove AOSP prefix from product name
+# Remove ssos prefix from product name
 PRODUCT_NAME := vince
+
+# Shapeshift Device identifier
+SSOS_BUILD := vince

@@ -20,4 +20,4 @@
 
 ## Device Picture
 
-![Redmi 5 Plus](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-5-plus-2.jpg "Redmi 5 Plus")
+![Redmi 5 Plus](https://i.ibb.co/nPr4bbC/index-redmi5plus-red.png "Redmi 5 Plus")

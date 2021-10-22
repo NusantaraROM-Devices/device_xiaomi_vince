@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor:64 \
     vendor.qti.hardware.btconfigstore@2.0.vendor:64
 
+# Board
+PRODUCT_BOARD_PLATFORM := msm8953
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
