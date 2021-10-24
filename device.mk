@@ -395,6 +395,10 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
+    extphonelib \
+    extphonelib.xml \
+    extphonelib-product \
+    extphonelib_product.xml \
     librmnetctl \
     libcnefeatureconfig \
     qti-telephony-hidl-wrapper \
