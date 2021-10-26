@@ -52,6 +52,9 @@ TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
 # Camera
 TARGET_SUPPORT_HAL1 := false
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Kernel
 TARGET_KERNEL_CONFIG := vince_defconfig
 BOARD_KERNEL_BASE := 0x80000000
