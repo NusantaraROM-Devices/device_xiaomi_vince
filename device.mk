@@ -494,6 +494,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl \
     libshim_wfdmmsink
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
