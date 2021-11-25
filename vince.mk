@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit Shapeshift product configuration
-$(call inherit-product, device/xiaomi/vince/ssos_vince.mk)
+# Inherit Octavi product configuration
+$(call inherit-product, device/xiaomi/vince/octavi_vince.mk)
 
-# Remove ssos prefix from product name
+# Remove Octavi prefix from product name
 PRODUCT_NAME := vince
 
-# Shapeshift Device identifier
-SSOS_BUILD := vince
+# Identify Octavi Device identifier
+OCTAVI_BUILD := vince
