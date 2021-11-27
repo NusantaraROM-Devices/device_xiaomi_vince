@@ -224,6 +224,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl:64 \
     android.hardware.gatekeeper@1.0-service
 
+# Gcam Go
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt
+
 # GPS
 PRODUCT_PACKAGES += \
     libcurl \
