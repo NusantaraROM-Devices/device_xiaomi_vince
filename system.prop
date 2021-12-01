@@ -76,6 +76,9 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 
+# Maintainer
+ro.octavi.maintainer=GhostMaster69-dev
+
 # Media
 av.debug.disable.pers.cache=1
 media.aac_51_output_enabled=true
