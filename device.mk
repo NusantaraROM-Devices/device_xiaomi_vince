@@ -408,6 +408,8 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper_prd.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
+    qti-telephony-utils-prd \
+    qti-telephony-utils_prd.xml \
     telephony-ext \
     android.system.net.netd@1.1.vendor \
     android.hardware.radio@1.5.vendor \
