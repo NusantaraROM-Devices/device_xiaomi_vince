@@ -588,7 +588,7 @@
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
     <!-- Whether the new Auto Selection Network UI should be shown -->
-    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+    <bool name="config_enableNewAutoSelectNetworkUI">false</bool>
 
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">4</integer>
