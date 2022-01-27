@@ -822,6 +822,10 @@ vendor/lib64/vendor.qti.gnss@4.0-service.so|3c75d133af5193436167380aa89abcf05d07
 vendor/lib64/vendor.qti.gnss@4.0.so|cc2504016d0ce0afbc58ac95207a4b913f2ccfe9
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so|19a1f7ffb8118c207aa8cb2318996605771c339a
 
+# Graphics - from LA.UM.9.6.2.r1-04100-89xx.0
+vendor/lib/libtinyxml.so|1303bce85570b6de6f6e60a3edff508afe3fc60f
+vendor/lib64/libtinyxml.so|e00e92ead90d45240484c159dfe20f29c9cd5b64
+
 # Graphics - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/lib/egl/eglSubDriverAndroid.so|89f22710e92951bd45d7772dc9d882c582cb8c0e
 vendor/lib/egl/libEGL_adreno.so|cbc052526a10907b5dc0ca2e53a37570adc3a317
