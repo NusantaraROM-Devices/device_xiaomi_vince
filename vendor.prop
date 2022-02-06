@@ -41,7 +41,6 @@ vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio_hal.period_size=192
 vendor.audio.read.wsatz.type=true
-vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 vendor.voice.conc.fallbackpath=deep-buffer
 vendor.voice.path.for.pcm.voip=false
 vendor.voice.playback.conc.disabled=true
@@ -69,7 +68,6 @@ vendor.audio.feature.wsa.enable=true
 # Bluetooth
 persist.vendor.qcom.bluetooth.soc=pronto
 persist.vendor.qcom.bluetooth.enable.splita2dp=false
-ro.bluetooth.hfp.ver=1.7
 ro.vendor.bluetooth.wipower=false
 
 # Boot
@@ -78,14 +76,6 @@ sys.vendor.shutdown.waittime=500
 # Camera
 persist.vendor.camera.CDS=off
 persist.vendor.camera.video.CDS=off
-persist.camera.mct.debug=0
-persist.camera.iface.logs=0
-persist.camera.imglib.logs=0
-persist.camera.isp.clock.optmz=0
-persist.camera.isp.debug=0
-persist.camera.sensor.debug=0
-persist.camera.HAL3.enabled=1
-persist.camera.stats.test=5
 
 # Cne
 persist.vendor.cne.feature=1
@@ -108,9 +98,6 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
-# Fm
-hw.fm.init=0
-
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
@@ -132,13 +119,11 @@ vendor.vidc.disable.split.mode=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.sys.fw.dex2oat_thread_count=8
-
-# Perf
 ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.radio.multisim.config=dsds
+persist.sys.fflag.override.settings_provider_model=false
 persist.vendor.data.iwlan.enable=true
 persist.vendor.radio.add_power_save=1
 persist.vendor.radio.aosp_usr_pref_sel=true
@@ -154,19 +139,12 @@ persist.vendor.radio.mt_sms_ack=30
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.relay_oprt_change=1
 persist.vendor.radio.sib16_support=1
-persist.sys.fflag.override.settings_provider_model=false
 vendor.rild.libargs=-d /dev/smd0
 
 # Radio (IMS)
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
-persist.vendor.ims.disableIMSLogs=1
-persist.vendor.ims.disableADBLogs=1
-persist.vendor.ims.disableDebugDataPathLogs=1
-persist.vendor.ims.disableDebugLogs=1
-persist.vendor.ims.disableSigHandler=1
-persist.vendor.ims.disableQXDMLogs=1
 
 # SOC
 ro.soc.manufacturer=Qualcomm
@@ -184,9 +162,6 @@ ro.surface_flinger.vsync_sf_event_phase_offset_ns=1000000
 
 # System
 persist.sys.binary_xml=false
-
-# Time Services
-persist.backup.ntpServer=0.pool.ntp.org
 
 # Tcp
 net.tcp.2g_init_rwnd=10
