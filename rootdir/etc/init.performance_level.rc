@@ -1,4 +1,5 @@
-# Copyright (c) 2021 dlwlrma123
+# Copyright (c) 2020-2022 exthmui project
+# Copyright (c) 2021-2022 dlwlrma123
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,6 +37,8 @@ on property:sys.performance.level=0
     write /proc/sys/kernel/sched_group_upmigrate 100
     write /proc/sys/kernel/sched_min_task_util_for_boost 51
     write /proc/sys/kernel/sched_min_task_util_for_colocation 35
+    write /proc/sys/kernel/sched_autogroup_enabled 1
+    write /proc/sys/kernel/perf_cpu_time_max_percent 2
 
 on property:sys.performance.level=1
     chmod 644 /sys/class/thermal/thermal_message/sconfig
@@ -60,6 +63,8 @@ on property:sys.performance.level=1
     write /proc/sys/kernel/sched_group_upmigrate 100
     write /proc/sys/kernel/sched_min_task_util_for_boost 51
     write /proc/sys/kernel/sched_min_task_util_for_colocation 35
+    write /proc/sys/kernel/sched_autogroup_enabled 1
+    write /proc/sys/kernel/perf_cpu_time_max_percent 2
 
 on property:sys.performance.level=2
     chmod 644 /sys/class/thermal/thermal_message/sconfig
@@ -84,6 +89,8 @@ on property:sys.performance.level=2
     write /proc/sys/kernel/sched_group_upmigrate 100
     write /proc/sys/kernel/sched_min_task_util_for_boost 51
     write /proc/sys/kernel/sched_min_task_util_for_colocation 35
+    write /proc/sys/kernel/sched_autogroup_enabled 1
+    write /proc/sys/kernel/perf_cpu_time_max_percent 5
 
 on property:sys.performance.level=3
     chmod 644 /sys/class/thermal/thermal_message/sconfig
@@ -108,6 +115,9 @@ on property:sys.performance.level=3
     write /proc/sys/kernel/sched_group_upmigrate 85
     write /proc/sys/kernel/sched_min_task_util_for_boost 45
     write /proc/sys/kernel/sched_min_task_util_for_colocation 30
+    write /proc/sys/kernel/printk_devkmsg off
+    write /proc/sys/kernel/sched_autogroup_enabled 1
+    write /proc/sys/kernel/perf_cpu_time_max_percent 10
 
 on property:sys.performance.level=4
     chmod 644 /sys/class/thermal/thermal_message/sconfig
@@ -132,6 +142,8 @@ on property:sys.performance.level=4
     write /proc/sys/kernel/sched_group_upmigrate 80
     write /proc/sys/kernel/sched_min_task_util_for_boost 40
     write /proc/sys/kernel/sched_min_task_util_for_colocation 25
+    write /proc/sys/kernel/sched_autogroup_enabled 0
+    write /proc/sys/kernel/perf_cpu_time_max_percent 15
 
 on property:sys.performance.level=5
     chmod 644 /sys/class/thermal/thermal_message/sconfig
@@ -156,6 +168,8 @@ on property:sys.performance.level=5
     write /proc/sys/kernel/sched_group_upmigrate 70
     write /proc/sys/kernel/sched_min_task_util_for_boost 35
     write /proc/sys/kernel/sched_min_task_util_for_colocation 20
+    write /proc/sys/kernel/sched_autogroup_enabled 0
+    write /proc/sys/kernel/perf_cpu_time_max_percent 20
 
 on property:sys.performance.level=6
     chmod 644 /sys/class/thermal/thermal_message/sconfig
@@ -180,4 +194,6 @@ on property:sys.performance.level=6
     write /proc/sys/kernel/sched_group_upmigrate 50
     write /proc/sys/kernel/sched_min_task_util_for_boost 0
     write /proc/sys/kernel/sched_min_task_util_for_colocation 0
+    write /proc/sys/kernel/sched_autogroup_enabled 0
+    write /proc/sys/kernel/perf_cpu_time_max_percent 25
 
