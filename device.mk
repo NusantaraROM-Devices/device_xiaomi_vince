@@ -182,7 +182,7 @@ PRODUCT_PACKAGES += \
 
 # Dirac
 PRODUCT_PACKAGES += \
-    Dirac
+    XiaomiDirac
 
 # Display
 PRODUCT_PACKAGES += \
