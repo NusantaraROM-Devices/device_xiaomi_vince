@@ -1,0 +1,21 @@
+[
+  {
+    "remote"       : "github",
+    "repository"   : "NusantaraROM-Devices/vendor_xiaomi_vince",
+    "target_path"  : "vendor/xiaomi/vince",
+    "branch"       : "12"
+  },
+  {
+    "remote"       : "github",
+    "repository"   : "GhostMaster69-Dev/android_kernel_xiaomi_vince",
+    "target_path"  : "kernel/xiaomi/vince",
+    "branch"       : "stable"
+  },
+  {
+    "remote"       : "gitlab",
+    "repository"   : "rayrzy/rzyTC-clang",
+    "target_path"  : "prebuilts/clang/host/linux-x86/clang-rzyTC",
+    "clone-depth"  : "1",
+    "branch"       : "main"
+  }
+]

@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit Octavi product configuration
-$(call inherit-product, device/xiaomi/vince/octavi_vince.mk)
+# Inherit Nusantara product configuration
+$(call inherit-product, device/xiaomi/vince/nad_vince.mk)
 
-# Remove Octavi prefix from product name
+# Remove Nusantara prefix from product name
 PRODUCT_NAME := vince
 
-# Identify Octavi Device identifier
-OCTAVI_BUILD := vince
+# Identify Nusantara Device identifier
+NAD_BUILD := vince

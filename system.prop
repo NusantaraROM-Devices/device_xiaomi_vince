@@ -94,10 +94,6 @@ persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableSigHandler=1
 persist.vendor.ims.disableQXDMLogs=1
 
-# Maintainer
-ro.octavi.maintainer=GhostMaster69-dev
-ro.octavi.display.pid=1443828
-
 # Media
 av.debug.disable.pers.cache=1
 media.aac_51_output_enabled=true
