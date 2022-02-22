@@ -18,7 +18,10 @@ allow system_server exported_camera_prop:file { read };
 allow system_server mm-qcamerad:binder { call };
 
 # Smart Charging
-allow system_server sysfs_battery_supply:file rw_file_perms;
+allow system_server sysfs_battery_supply:file { getattr open read write };
+r_dir_file(untrusted_app, sysfs_battery_supply)
+r_dir_file(untrusted_app, sysfs_usb_supply)
+allow system_server sysfs_usb_supply:file { getattr open read write };
 
 # Touch Panel
 allow system_server proc_touchpanel:dir search;
