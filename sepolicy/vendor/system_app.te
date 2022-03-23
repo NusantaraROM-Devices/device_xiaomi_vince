@@ -1,8 +1,11 @@
+# Battery health
+r_dir_file(system_app, sysfs_battery_supply);
+
 # FM radio needs to set fm properties
 set_prop(system_app, fm_prop)
 
 # FPS tile
 allow system_app sysfs:file { getattr };
 
-# zram
+# zRAM
 r_dir_file(system_app sysfs_zram)
