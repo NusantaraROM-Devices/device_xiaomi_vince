@@ -576,6 +576,9 @@
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
 
+    <!-- Battery health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
