@@ -42,11 +42,6 @@ vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true
 
-# Better signal
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.hw_fast_dormancy=1 \
-    persist.cust.tel.eons=1
-
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
