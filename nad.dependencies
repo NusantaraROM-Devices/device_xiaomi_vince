@@ -1,0 +1,21 @@
+[
+  {
+    "remote": "github",
+    "repository": "grindklast/android_vendor_xiaomi_vince",
+    "target_path": "vendor/xiaomi/vince",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "grindklast/kernel_dark_ages_vince",
+    "target_path": "kernel/xiaomi/vince",
+    "branch": "darky"
+	"depth": "1"
+  },
+  {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraPapers",
+    "target_path": "packages/apps/NusantaraPaper",
+    "branch": "10"
+  },
+]
